@@ -15,7 +15,7 @@ let ValueInNumber = Number(score)
 let isLoggedIn = "absdf"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);
+//console.log(booleanIsLoggedIn);
 
 // 1 => true and 0=> false
 // if I put Emplty ( "" ) => value is returned will be false
@@ -24,7 +24,36 @@ console.log(booleanIsLoggedIn);
 let someNumber = 12
 
 let StringNumber = String(someNumber)
-console.log(StringNumber);
-console.log(typeof StringNumber);
+//console.log(StringNumber);
+//console.log(typeof StringNumber);
+
+
+/******************************************Operations**************************************************/
+
+let value = 3
+let negvalue = -value
+//console.log(negvalue);
+
+let str1 = "Hello"
+let str2 = " Matin"
+
+let str3 = str1 + str2;
+//console.log(str3);
+
+//console.log("2" + 2);
+//console.log(2 + "2");
+//console.log("1" + 2 + 2);
+//console.log(1 + 2 + "2");
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2+2
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
+
+
+
 
 
